@@ -21,29 +21,274 @@ body{
     color: rgb(145, 145, 145);    
 }
 
-.portrain{ 
-        margin-top: 70px;
+.portrain{         
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 1000px;
         background: #252e30 url("../img/portrain.jpg") center no-repeat;
+        text-align: center;
     }
 
+/*===============Container==============*/
+.container {
+    width: 100%; /*ширина блока*/
+    max-width: 1170px; /*максимальный размер 1170пх*/
+    margin: 0 auto; /*выровниваем по центру*/
+    padding: 15px;
+    
+}
 
-.Web___Graphic_Designer {
+.portrain__title{
     font-size: 60px;
     font-family: "Roboto";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 0.4;
-    text-align: center;
+    display: inline-block;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 50px;
+    /*line-height: 0.4;*/    
+}
+
+p{
+    text-align: justify; /* Выравнивание по ширине */
+}
+
+.portrain__btn{
+    padding: 20px 40px 20px 40px;    
+    background-color: transparent; /*устанавливает прозрачный фон кнопке*/
+    font-weight: bold;      
+    color: #ffffff;  
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #ffffff; 
+    outline: none; /*убирает черный бордер при клике по кнопке*/
+    
+}
+.header{
+   background: #252e30;
+   margin-bottom: 100px; 
+}
+.header-menu{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-left:  10px;
+    text-transform: uppercase
+    
+}
+
+.header__logo p{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.header__logo p span{
+    color: rgb(46, 204, 113);
+    ;
+}
+
+
+.nav li{
+    margin-left: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav li:hover{
+    color: rgb(46, 204, 113);
+    
+}
+.directions__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+        
+}
+.directions__card{
+    padding: 0 30px;
+
+}
+.directions__title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.directions__text{
+    text-align: justify; /* Выравнивание по ширине */
+    
+}
+.aboutme{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-bottom: 100px;;
+}
+
+.aboutme__content{
+    margin-left: 100px;
+    width: 100%; /*ширина блока*/
+    max-width: 685px; /*максимальный размер пх*/
+}
+
+.aboutme__title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+.aboutme__text{
+    text-align: justify; /* Выравнивание по ширине */
+    margin-bottom: 50px;
+    margin-right: 60px;
+
+}
+
+.aboutme__skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+   
+}
+.card__skill{
+    width: 50%;
+    padding-bottom: 55px;
+    position: relative;
+    
+
+}
+.skill__title{
+    margin-bottom: 30px;
+}
+.skill__content{
+   
+}
+.card__img{
     position: absolute;
-    left: 423.937px;
-    top: 533.5px;
-    z-index: 311;
-  }
+    top:0;
+    left:-50px;
+    
+}
+.skill__text{
+    width: 100%; /*ширина блока*/
+    max-width: 250px; /*максимальный размер пх*/
+    text-align: justify; /* Выравнивание по ширине */
+}
+.myskills{
+    margin-bottom: 200px;
+}
+
+.technology__flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.technology__title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(86, 99, 102);
+}
+
+.technology__text{
+    margin-bottom: 45px;
+}
+
+.technology__btn{
+    padding: 18px 47px 18px 47px;    
+    background-color: transparent; /*устанавливает прозрачный фон кнопке*/
+    font-weight: bold;      
+    color: rgb(46, 204, 113);  
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid rgb(46, 204, 113); 
+    outline: none; /*убирает черный бордер при клике по кнопке*/
+    
+}
+
+.technology__content{
+    width: 50%;
+}
+.technology__statistic{
+    width: 50%;
+}
+
+.technology_chart{
+    width: 520px;
+    height: 30px;
+    background-color: rgb(46, 204, 113);
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.Illustrator{
+    width: 460px;
+}
+.PHP{
+    width: 405px;
+}
 
 
-  
+
+
+.resume{
+    background-color: #f2f2f1;
+    margin-top: 200px;
+}
+
+.resume__title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #566366;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.resume__text{
+    text-align: center;
+    max-width: 1025px;
+    margin: 0 auto 50px;
+}
+
+.resume__btn{
+    padding: 18px 62px 18px 62px;    
+    background-color: transparent; /*устанавливает прозрачный фон кнопке*/
+    font-weight: bold;      
+    color: rgb(46, 204, 113);  
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid rgb(46, 204, 113); 
+    outline: none; /*убирает черный бордер при клике по кнопке*/
+    
+}
+
+.resume .container form{
+    display: flex;
+    justify-content: center;
+}
