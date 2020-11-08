@@ -1,8 +1,3 @@
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
@@ -14,3 +9,41 @@ h1, h2, h3, h4, h5, h6{
 	border: 0;
 	box-sizing: border-box;
 } 
+body{
+    
+    max-width: 1600px; /*максимальный размер 1170пх*/
+    width: 100%; /*ширина блока*/
+    margin: 0 auto; /*выровниваем по центру*/
+    font-family: "Roboto";
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(145, 145, 145);    
+}
+
+.portrain{ 
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+        background: #252e30 url("../img/portrain.jpg") center no-repeat;
+    }
+
+
+.Web___Graphic_Designer {
+    font-size: 60px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.4;
+    text-align: center;
+    position: absolute;
+    left: 423.937px;
+    top: 533.5px;
+    z-index: 311;
+  }
+
+
+  
