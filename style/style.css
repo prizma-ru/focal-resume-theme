@@ -145,6 +145,7 @@ ul{
     /*justify-content: space-between;*/
     align-items: center;
     margin-bottom: 100px;;
+    background-color: #f2f2f1;
 }
 
 .aboutme__content{
@@ -201,6 +202,7 @@ ul{
 }
 .myskills{
     margin-bottom: 200px;
+    
 }
 
 .technology__flex{
@@ -259,7 +261,7 @@ ul{
 
 .resume{
     background-color: #f2f2f1;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .resume__title{
@@ -269,6 +271,7 @@ ul{
     color: #566366;
     text-transform: uppercase;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 .resume__text{
     text-align: center;
@@ -277,7 +280,7 @@ ul{
 }
 
 .resume__btn{
-    padding: 18px 62px 18px 62px;    
+    padding: 18px 40px 18px 40px;    
     background-color: transparent; /*устанавливает прозрачный фон кнопке*/
     font-weight: bold;      
     color: rgb(46, 204, 113);  
@@ -285,10 +288,121 @@ ul{
     text-transform: uppercase;
     border: 2px solid rgb(46, 204, 113); 
     outline: none; /*убирает черный бордер при клике по кнопке*/
+    margin-bottom: 100px;
     
 }
 
 .resume .container form{
     display: flex;
     justify-content: center;
+}
+
+
+
+.education__flex{
+    display: flex;
+    justify-content: space-between;    
+    border-bottom: 2px solid  rgb(204, 204, 204);
+}
+.education__items{
+    padding-right: 40px;
+
+}
+
+.education__info{
+    padding-left: 40px;
+    
+
+}
+.education__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+}
+.education__college{
+    
+    font-weight: 500;
+    color: rgb(145, 145, 145);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.education__text{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.education__card .education__text{
+   
+    border-top: 2px solid  rgb(204, 204, 204);
+   
+}
+
+.gpa{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.education__gpa{
+  
+
+    font-size: 14px;
+   /*  width: 70px;
+    height: 30px; */
+    padding: 7px 12px 7px 12px;
+    margin-bottom: 30px;
+    background-color:rgb(46, 204, 113); 
+    color: #ffffff;
+  
+}
+
+.workexperience .education__flex{
+    border: none;
+} 
+
+.testimonials{
+    background-color: #f2f2f1;   
+}
+
+.testimonials__text{
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(145, 145, 145);
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+
+}
+.testimonials__title{
+    font-size: 18px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(86, 99, 102);
+    text-transform: uppercase;
+    line-height: 2;
+
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid rgb(46, 204, 113);
+    margin: 0 10px;
+}
+
+.circle:first-child{
+    background-color: rgb(46, 204, 113);
 }
