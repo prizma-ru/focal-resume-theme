@@ -28,7 +28,10 @@ body{
         height: 1000px;
         background: #252e30 url("../img/portrain.jpg") center no-repeat;
         text-align: center;
+        position: relative;
     }
+
+
 
 /*===============Container==============*/
 .container {
@@ -186,9 +189,9 @@ ul{
 .skill__title{
     margin-bottom: 30px;
 }
-.skill__content{
+/* .skill__content{
    
-}
+} */
 .card__img{
     position: absolute;
     top:0;
@@ -392,6 +395,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .circle{
@@ -401,8 +405,224 @@ ul{
     background-color: #ffffff;
     border: 2px solid rgb(46, 204, 113);
     margin: 0 10px;
+    
 }
 
 .circle:first-child{
     background-color: rgb(46, 204, 113);
+}
+
+.portrain__circles{
+    position: absolute;
+    bottom: 60px;
+    right: 210px;
+}
+.portrain__circles .circle{
+
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    margin: 10px 0;
+  
+}
+.portrain__circles .circle:first-child{
+    background-color:#ffffff;
+}
+
+
+.portfolio__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.portfolio__text{   
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(145, 145, 145);
+        line-height: 1.667;
+        text-align: center;
+        margin-bottom: 100px;       
+}
+.no__img{
+background-color: #252e30;
+}
+.portfolio__menu{
+    padding: 40px;;
+}
+
+.filter__title{
+    background-color: #252e30;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.667;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    }   
+
+
+.portfolio__menu p{
+    color: #838484;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.portfolio__menu p:last-child{
+   padding: 0;
+}
+
+.portfolio__menu p:first-child{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio__item{    
+    width: 365px;
+    height: 300px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__photo {
+    min-width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.footer{
+        background-color:#191f21
+}
+
+.footer_title{
+    text-align: center;
+    color: rgb(75, 84, 86);
+    text-transform: uppercase;
+    font-size: 14px;   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer_social{
+    padding-bottom: 50px;
+}
+
+.footer_social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.footer_social ul li{
+ 
+    list-style-type: none;
+    margin: 0 10px;
+   
+  
+}
+.fab{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.fab:hover{
+    color: rgb(46, 204, 113);
+}
+
+.contact{
+    background-color: #252e30;
+    
+}
+
+.contact__flex{
+    display: flex;
+    justify-content: space-between;
+    
+
+  
+}
+
+input{
+    background-color: rgb(75, 84, 86);
+    width: 100%;;
+    height: 50px;
+    outline: none; /*убирает черный бордер при клике по кнопке*/    
+}
+textarea{
+    background-color: rgb(75, 84, 86);
+    outline: none; /*убирает черный бордер при клике по кнопке*/
+    width: 100%;
+    height: 280px;
+}
+
+.contact__info p{
+    padding-bottom: 30px;
+}
+.contact__info p:nth-child(5){
+    color: #ffffff;
+}
+.contact__info p:nth-child(6){
+    color: #ffffff;
+}
+
+.contact__form{
+    flex: 50%;
+    padding-left:45px;
+}
+.contact__info{
+    flex: 50%;
+    padding-right:45px;
+}
+.contact__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    
+}
+.move{
+    color: #566366;
+    padding-left: 50px;
+}
+
+label{
+    color:#ffffff;
+    
+}
+
+.contact__form form p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contact__form form p:first-child{
+    padding-top: 0px;
+    
+}
+.contact__btn{
+    padding: 18px 47px 18px 47px;    
+    /*background-color: transparent; /*устанавливает прозрачный фон кнопке*/
+    background-color:#191f21;
+    font-weight: bold;      
+    color: #ffffff; 
+    cursor: pointer;
+    text-transform: uppercase; 
+    outline: none; /*убирает черный бордер при клике по кнопке*/
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
